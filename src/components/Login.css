@@ -1,0 +1,35 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+  
+.musify-logo {
+    width: 500px; 
+    height: auto;
+    margin-bottom: 10px; 
+}
+  
+button {
+    width: 150px; 
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px; 
+    background-color: #1DB954; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.login-gif {
+    width: 100px; 
+}
+  
+button:hover {
+    background-color: #1ed760; 
+}
+  

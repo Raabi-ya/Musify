@@ -1,0 +1,112 @@
+.home {
+    display: flex;
+}
+  
+.sidebar {
+    width: 220px;
+    background-color: #1e1e1e;
+    color: #fff;
+    height: 100vh;
+    padding: 20px;
+}
+
+  
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.sidebar li {
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+  
+.sidebar li:hover {
+    color: #1db954;
+}
+  
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #121212;
+    color: #fff;
+}
+  
+.playlist {
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px; 
+    transition: background-color 0.3s ease; 
+}
+  
+.playlist:hover {
+    background-color: #1aa34a; 
+}
+  
+.playlist img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px; 
+}
+  
+.playlist h3 {
+    margin: 10px;
+    color: #fff; 
+}
+  
+.playlist ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+  
+.playlist li {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+  
+.playlist .song-name {
+    font-size: 20px; 
+    transition: color 0.3s ease;
+}
+  
+
+.now-playing-sidebar {
+    margin-top: 20px;
+}
+  
+.album-pic {
+    width: 60px; 
+    height: 60px;
+    object-fit: cover;
+    margin-right: 25px; 
+}
+
+.album-pic:hover {
+    transform: scale(1.1); 
+}
+  
+.album-pic-sidebar {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+  
+.spotify-logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+  
+.spotify-logo {
+    width: 150px;
+    height: auto;
+}
+    
